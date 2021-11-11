@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import {NavLink} from "react-router-dom";
+import Image from 'next/image'
 import Link from 'next/link';
 
 //Import Image
@@ -76,9 +76,9 @@ class Headers extends Component {
                         <div className="container">
                             <div className="row">
                                 <div className="col-lg-2 col-md-12 col-sm-12 col-xs-12">
-                                    <div className="navbar-wrap">
+                                    <div classNamiNe="navbar-wrap">
                                         <div className="logo d-flex justify-content-between">
-                                            <Link href={`${process.env.PUBLIC_URL}/`}><a className="navbar-brand" onClick={this.scrollTop}><img src={logoMain} alt="" /></a></Link>
+                                            <Link href={`${process.env.PUBLIC_URL}/`}><a className="navbar-brand" onClick={this.scrollTop}><Image src={logoMain} alt="" /></a></Link>
                                         </div>
                                         <div className="navbar-icons">
                                             <div className="searchbar-open">
@@ -114,7 +114,7 @@ class Headers extends Component {
                                                     <span className="h-top" />
                                                     <span className="h-middle" />
                                                     <span className="h-bottom" />
-                                               </a></Link>
+                                                </a></Link>
                                             </div>
                                         </div>
                                     </div>
@@ -122,11 +122,11 @@ class Headers extends Component {
                                 <div className="col-lg-10 col-md-10 col-sm-10 col-xs-10">
                                     <nav className="main-nav">
                                         <div className="navber-logo-sm">
-                                            <img src={secondLogo} alt="" className="img-fluid" />
+                                            <Image src={secondLogo} alt="" className="img-fluid" />
                                         </div>
                                         <ul>
                                             <li className="has-child-menu">
-                                                <Link href={"#"}>Home</Link>
+                                                <Link href={"#"}>HOME</Link>
                                                 <i className="fl flaticon-plus">+</i>
                                                 <ul className="sub-menu">
                                                     <li>
@@ -138,30 +138,138 @@ class Headers extends Component {
                                                 </ul>
                                             </li>
                                             <li>
-                                                <Link activeClassName="active" href={`${process.env.PUBLIC_URL}/about-us`} onClick={this.scrollTop} >About us</Link >
+                                                <Link activeClassName="active" href={`${process.env.PUBLIC_URL}/about-us`} onClick={this.scrollTop} >About IIEC</Link >
                                             </li>
                                             <li>
-                                                <Link activeClassName="active" href={`${process.env.PUBLIC_URL}/destination`} onClick={this.scrollTop} >Destinations</Link>
+                                                <Link activeClassName="active" href={`${process.env.PUBLIC_URL}/destination`} onClick={this.scrollTop} >IIEC HTMI</Link>
+                                            </li> <li>
+                                                <Link activeClassName="active" href={`${process.env.PUBLIC_URL}/destination`} onClick={this.scrollTop} >IIEC MBBS</Link>
                                             </li>
                                             <li className="has-child-menu">
-                                                <Link href={"#"}>Tour Package</Link>
+                                                <Link href={"#"}>SERVICES</Link>
                                                 <i className="fl flaticon-plus">+</i>
                                                 <ul className="sub-menu">
-                                                    <li>
-                                                        <Link activeClassName="active" href={`${process.env.PUBLIC_URL}/package`} className="sub-item" onClick={this.scrollTop}>package</Link>
+                                                    <li >
+                                                        <Link href={"#"} className="sub-item has-child-menu" onClick={this.scrollTop}>EDUCATION</Link>
+                                                        <ul className="sub-menu">
+                                                            <li>
+                                                                <Link activeClassName="active" href={`${process.env.PUBLIC_URL}/package-sidebar`} className="sub-item" onClick={this.scrollTop}>Study in Korea</Link>
+                                                            </li>
+                                                            <li>
+                                                                <Link activeClassName="active" href={`${process.env.PUBLIC_URL}/package-sidebar`} className="sub-item" onClick={this.scrollTop}>Study in USA</Link>
+                                                            </li>
+                                                            <li>
+                                                                <Link activeClassName="active" href={`${process.env.PUBLIC_URL}/package-sidebar`} className="sub-item" onClick={this.scrollTop}>Study in Canada</Link>
+                                                            </li>
+                                                            <li>
+                                                                <Link activeClassName="active" href={`${process.env.PUBLIC_URL}/package-sidebar`} className="sub-item" onClick={this.scrollTop}>Study in Australia</Link>
+                                                            </li>
+                                                            <li>
+                                                                <Link activeClassName="active" href={`${process.env.PUBLIC_URL}/package-sidebar`} className="sub-item" onClick={this.scrollTop}>Study in Malaysia</Link>
+                                                            </li>
+                                                            <li>
+                                                                <Link activeClassName="active" href={`${process.env.PUBLIC_URL}/package-sidebar`} className="sub-item" onClick={this.scrollTop}>Study in Singapore</Link>
+                                                            </li>
+                                                            <li>
+                                                                <Link activeClassName="active" href={`${process.env.PUBLIC_URL}/package-sidebar`} className="sub-item" onClick={this.scrollTop}>Study in Europe</Link>
+                                                            </li>
+                                                            <li>
+                                                                <Link activeClassName="active" href={`${process.env.PUBLIC_URL}/package-sidebar`} className="sub-item" onClick={this.scrollTop}>Study in UK</Link>
+                                                            </li>
+                                                            <li>
+                                                                <Link activeClassName="active" href={`${process.env.PUBLIC_URL}/package-sidebar`} className="sub-item" onClick={this.scrollTop}>Study in China</Link>
+                                                            </li>
+                                                        </ul>
                                                     </li>
                                                     <li>
-                                                        <Link activeClassName="active" href={`${process.env.PUBLIC_URL}/package-sidebar`} className="sub-item" onClick={this.scrollTop}>package sidebar</Link>
+                                                        <Link href={"#"} className="sub-item has-child-menu" onClick={this.scrollTop}>VISA</Link>
+                                                        <ul className="sub-menu">
+                                                            <li>
+                                                                <Link activeClassName="active" href={`${process.env.PUBLIC_URL}/package-sidebar`} className="sub-item" onClick={this.scrollTop}>Business VISA</Link>
+                                                            </li>
+                                                            <li>
+                                                                <Link activeClassName="active" href={`${process.env.PUBLIC_URL}/package-sidebar`} className="sub-item" onClick={this.scrollTop}>Dependent VISA</Link>
+                                                            </li>
+                                                            <li>
+                                                                <Link activeClassName="active" href={`${process.env.PUBLIC_URL}/package-sidebar`} className="sub-item" onClick={this.scrollTop}>EB5 VISA</Link>
+                                                            </li>
+                                                            <li>
+                                                                <Link activeClassName="active" href={`${process.env.PUBLIC_URL}/package-sidebar`} className="sub-item" onClick={this.scrollTop}>H1B Alternative</Link>
+                                                            </li>
+                                                            <li>
+                                                                <Link activeClassName="active" href={`${process.env.PUBLIC_URL}/package-sidebar`} className="sub-item" onClick={this.scrollTop}>Investor VISA</Link>
+                                                            </li>
+                                                            <li>
+                                                                <Link activeClassName="active" href={`${process.env.PUBLIC_URL}/package-sidebar`} className="sub-item" onClick={this.scrollTop}>Tourist VISA</Link>
+                                                            </li>
+                                                            <li>
+                                                                <Link activeClassName="active" href={`${process.env.PUBLIC_URL}/package-sidebar`} className="sub-item" onClick={this.scrollTop}>VISA Refusal</Link>
+                                                            </li>
+                                                        </ul>
                                                     </li>
                                                     <li>
-                                                        <Link activeClassName="active" href={`${process.env.PUBLIC_URL}/package-standard`} className="sub-item" onClick={this.scrollTop}>package standard</Link>
+                                                        <Link href={`#`} className="sub-item has-child-menu" onClick={this.scrollTop}>IMIGRATION</Link>
+                                                        <ul className="sub-menu">
+                                                            <li>
+                                                                <Link activeClassName="active" href={`${process.env.PUBLIC_URL}/package-sidebar`} className="sub-item" onClick={this.scrollTop}>CANADA</Link>
+                                                            </li>
+                                                            <li>
+                                                                <Link activeClassName="active" href={`${process.env.PUBLIC_URL}/package-sidebar`} className="sub-item" onClick={this.scrollTop}>AUSTRALIA</Link>
+                                                            </li>
+                                                            <li>
+                                                                <Link activeClassName="active" href={`${process.env.PUBLIC_URL}/package-sidebar`} className="sub-item" onClick={this.scrollTop}>SOUTH AFRICA</Link>
+                                                            </li>
+                                                        </ul>
                                                     </li>
                                                     <li>
-                                                        <Link activeClassName="active" href={`${process.env.PUBLIC_URL}/package-details`} className="sub-item" onClick={this.scrollTop}>package details</Link>
+                                                        <Link href={"#"} className="sub-item has-child-menu" onClick={this.scrollTop}>TRAINING</Link>
+                                                        <ul className="sub-menu">
+                                                            <li>
+                                                                <Link activeClassName="active" href={`${process.env.PUBLIC_URL}/package-sidebar`} className="sub-item" onClick={this.scrollTop}>IELTS</Link>
+                                                            </li>
+                                                            <li>
+                                                                <Link activeClassName="active" href={`${process.env.PUBLIC_URL}/package-sidebar`} className="sub-item" onClick={this.scrollTop}>TOEFL</Link>
+                                                            </li>
+                                                            <li>
+                                                                <Link activeClassName="active" href={`${process.env.PUBLIC_URL}/package-sidebar`} className="sub-item" onClick={this.scrollTop}>PTE</Link>
+                                                            </li>
+                                                            <li>
+                                                                <Link activeClassName="active" href={`${process.env.PUBLIC_URL}/package-sidebar`} className="sub-item" onClick={this.scrollTop}>GMAT</Link>
+                                                            </li>
+                                                            <li>
+                                                                <Link activeClassName="active" href={`${process.env.PUBLIC_URL}/package-sidebar`} className="sub-item" onClick={this.scrollTop}>SAT</Link>
+                                                            </li>
+                                                            <li>
+                                                                <Link activeClassName="active" href={`${process.env.PUBLIC_URL}/package-sidebar`} className="sub-item" onClick={this.scrollTop}>GRE</Link>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li>
+                                                        <Link href={"#"} className="sub-item has-child-menu" onClick={this.scrollTop}>INTERNSHIP</Link>
+                                                        <ul className="sub-menu">
+                                                            <li>
+                                                                <Link href={`${process.env.PUBLIC_URL}/package-sidebar`} className="sub-item" onClick={this.scrollTop}>USA J-1</Link>
+                                                            </li>
+                                                            <li>
+                                                                <Link href={`${process.env.PUBLIC_URL}/package-sidebar`} className="sub-item" onClick={this.scrollTop}>USA J1 Summer Work</Link>
+                                                            </li>
+                                                            <li>
+                                                                <Link href={`${process.env.PUBLIC_URL}/package-sidebar`} className="sub-item" onClick={this.scrollTop}>USA J1-Caretaker</Link>
+                                                            </li>
+                                                            <li>
+                                                                <Link href={`${process.env.PUBLIC_URL}/package-sidebar`} className="sub-item" onClick={this.scrollTop}>Malaysia</Link>
+                                                            </li>
+                                                        </ul>
                                                     </li>
                                                 </ul>
                                             </li>
-                                            <li className="has-child-menu">
+                                            <li>
+                                                <Link activeClassName="active" href={`${process.env.PUBLIC_URL}/about-us`} onClick={this.scrollTop} >EVENTS</Link >
+                                            </li>
+                                            <li>
+                                                <Link activeClassName="active" href={`${process.env.PUBLIC_URL}/about-us`} onClick={this.scrollTop} >BLOGS</Link >
+                                            </li>
+                                            {/* <li className="has-child-menu">
                                                 <Link href={"#"}>Blogs</Link>
                                                 <i className="fl flaticon-plus">+</i>
                                                 <ul className="sub-menu">
@@ -178,9 +286,9 @@ class Headers extends Component {
                                                         <Link activeClassName="active" href={`${process.env.PUBLIC_URL}/blog-details`} className="sub-item" onClick={this.scrollTop}>blog-details </Link>
                                                     </li>
                                                 </ul>
-                                            </li>
+                                            </li> */}
                                             <li className="has-child-menu">
-                                                <Link href={"#"}>Pages</Link>
+                                                <Link href={"#"}>Information</Link>
                                                 <i className="fl flaticon-plus">+</i>
                                                 <ul className="sub-menu">
                                                     <li>
@@ -200,9 +308,9 @@ class Headers extends Component {
                                                     </li>
                                                 </ul>
                                             </li>
-                                            <li>
+                                            {/* <li>
                                                 <Link activeClassName="active" href={`${process.env.PUBLIC_URL}/contact`} onClick={this.scrollTop} >Contact Us</Link>
-                                            </li>
+                                            </li> */}
                                         </ul>
                                         <div className="navbar-icons-2">
                                             <div className="searchbar-open">

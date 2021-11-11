@@ -1,9 +1,11 @@
 import React, { Component } from "react";
+import Image from 'next/image'
 import OwlCarousel from 'react-owl-carousel';
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 
 //Import Images
+// import review1Img from "../../../assets/images/reviewer/reviewer-1.png"
 import review1Img from "../../../assets/images/reviewer/reviewer-1.png"
 import review2Img from "../../../assets/images/reviewer/reviewer-2.png"
 import review3Img from "../../../assets/images/reviewer/reviewer-3.png"
@@ -64,7 +66,7 @@ class Review extends Component {
                    <OwlCarousel className="review-slider owl-carousel"  {...reviewOptions}>
                        <div className="review-card ">
                            <div className="reviewer-img">
-                               <img src={review1Img} alt="" className="img-fluid" />
+                               <Image src={review1Img} alt="" className="img-fluid" />
                            </div>
                            <div className="reviewer-info">
                                <h3>Dina Jems</h3>
@@ -75,7 +77,7 @@ class Review extends Component {
                        </div>
                        <div className="review-card">
                            <div className="reviewer-img">
-                               <img src={review2Img} alt="" className="img-fluid" />
+                               <Image src={review2Img} alt="" className="img-fluid" />
                            </div>
                            <div className="reviewer-info">
                                <h3>Jahid Hassan</h3>
@@ -86,7 +88,7 @@ class Review extends Component {
                        </div>
                        <div className="review-card">
                            <div className="reviewer-img">
-                               <img src={review3Img} alt="" className="img-fluid" />
+                               <Image src={review3Img} alt="" className="img-fluid" />
                            </div>
                            <div className="reviewer-info">
                                <h3>Shwan Pull</h3>
@@ -97,7 +99,7 @@ class Review extends Component {
                        </div>
                        <div className="review-card ">
                            <div className="reviewer-img">
-                               <img src={review1Img} alt="" className="img-fluid" />
+                               <Image src={review1Img} alt="" className="img-fluid" />
                            </div>
                            <div className="reviewer-info">
                                <h3>Dina Jems</h3>
@@ -108,7 +110,7 @@ class Review extends Component {
                        </div>
                        <div className="review-card">
                            <div className="reviewer-img">
-                               <img src={review2Img} alt="" className="img-fluid" />
+                               <Image src={review2Img} alt="" className="img-fluid" />
                            </div>
                            <div className="reviewer-info">
                                <h3>Jahid Hassan</h3>
@@ -119,7 +121,7 @@ class Review extends Component {
                        </div>
                        <div className="review-card">
                            <div className="reviewer-img">
-                               <img src={review3Img} alt="" className="img-fluid" />
+                               <Image src={review3Img} alt="" className="img-fluid" />
                            </div>
                            <div className="reviewer-info">
                                <h3>Shwan Pull</h3>

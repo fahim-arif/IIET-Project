@@ -100,7 +100,7 @@ class MainBanner extends Component {
                 {/* ===============  Main banner area end =============== */}
 
                 {/* ===============  findfrom area start ============= */}
-                <div className="find-form">
+                {/* <div className="find-form">
                     <div className="container">
                         <form className="findfrom-wrapper">
                             <div className="row">
@@ -133,7 +133,7 @@ class MainBanner extends Component {
                             </div>
                         </form>
                     </div>
-                </div>
+                </div> */}
 
                 {/* ===============  findfrom area end =============== */}
             </>

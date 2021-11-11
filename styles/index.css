@@ -55,5 +55,13 @@ header .header-area .main-nav ul li a.active {
     background-size: cover !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
-    
 }
+.video-play{
+    position: absolute;
+    cursor: pointer;
+    margin: 0 auto;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 1.2rem;
+    z-index: 2;
+} 

@@ -1,10 +1,11 @@
-import React, { Component } from "react";
+import React, {Component} from "react";
 import MainBanner from "./MainBanner";
 import Packages from "./Packages";
 import Destinations from "./Destinations";
 import Blog from "./Blog";
 import Features from "./Features";
 import Review from "./Review";
+import Info from './Info'
 import Achievement from "./Achievement";
 
 //Define Default Content
@@ -18,10 +19,10 @@ class HomePage extends Component {
   }
   render() {
     return (
-       <div>
+      <div>
 
-           {/* Start Preloader Area */}
-           {/* <div className="preloader">
+        {/* Start Preloader Area */}
+        {/* <div className="preloader">
                <div className="loader loader1">
                    <span style={{'--i': 1}} />
                    <span style={{'--i': 2}}/>
@@ -46,18 +47,19 @@ class HomePage extends Component {
                    <div className="rocket" />
                </div>
            </div> */}
-           {/* End Preloader Area */}
+        {/* End Preloader Area */}
 
-           {/*---------Start Imported All Sections-----------*/}
-             <MainBanner/> 
-             <Packages/> 
-             <Destinations/> 
-             <Achievement/>
-             <Review/>
-            <Features/>
-            <Blog/>   
-           {/*---------End Imported All Sections-----------*/}
-       </div>
+        {/*---------Start Imported All Sections-----------*/}
+        <MainBanner />
+        <Packages />
+        <Info />
+        {/* <Destinations/>  */}
+        {/* <Achievement/> */}
+        <Review />
+        {/* <Features/> */}
+        {/* <Blog/>    */}
+        {/*---------End Imported All Sections-----------*/}
+      </div>
     );
   }
 }

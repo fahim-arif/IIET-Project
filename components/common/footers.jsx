@@ -1,9 +1,10 @@
 import React, {Component} from "react";
+import Image from 'next/image'
 import Link from 'next/link'
 import $ from "jquery";
 
 //Import Image
-import secondLogo from "../../assets/images/logo-2.png"
+import logoMain from "../../assets/images/logo.png"
 import paymentCard1Img from "../../assets/images/payment/payment-card-1.png"
 import paymentCard2Img from "../../assets/images/payment/payment-card-2.png"
 import paymentCard3Img from "../../assets/images/payment/payment-card-3.png"
@@ -184,9 +185,7 @@ class Footers extends Component {
     }
 
     //Set data
-    componentWillMount() {
-
-    }
+ 
     //Un set data
     componentWillUnmount() {
 
@@ -201,7 +200,7 @@ class Footers extends Component {
         return (
             <>
                 {/* ===============  Newsletter area start =============== */}
-                <div className="newsletter-area pt-120">
+                <div className="newsletter-area pt-100" style={{marginBottom:"50px"}}>
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12 col-md-12">
@@ -224,11 +223,11 @@ class Footers extends Component {
                 {/* ==============  Footer area start================= */}
                 <div className="footer-area">
                     <div className="container">
-                        <div className="row">
+                        <div className="row"  style={{marginTop:'-120px'}}>
                             <div className="col-lg-4 col-md-12">
                                 <div className="footer-info">
                                     <div className="footer-logo">
-                                        <img src={secondLogo} alt="" className="img-fluid" />
+                                        <Image src={logoMain} alt="" className="img-fluid" />
                                     </div>
                                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid maxime aut ut voluptate
                                         dolorum nisi ducimus ratione</p>
@@ -307,11 +306,11 @@ class Footers extends Component {
                                         <div className="footer-links payment-links">
                                             <h5 className="widget-title">We Accepts:</h5>
                                             <div className="payment-cards">
-                                                <img src={paymentCard2Img} alt="" className="img-fluid" />
-                                                <img src={paymentCard1Img} alt="" className="img-fluid" />
-                                                <img src={paymentCard3Img} alt="" className="img-fluid" />
-                                                <img src={paymentCard4Img} alt="" className="img-fluid" />
-                                                <img src={paymentCard5Img} alt="" className="img-fluid" />
+                                                <Image src={paymentCard2Img} alt="" className="img-fluid" />
+                                                <Image src={paymentCard1Img} alt="" className="img-fluid" />
+                                                <Image src={paymentCard3Img} alt="" className="img-fluid" />
+                                                <Image src={paymentCard4Img} alt="" className="img-fluid" />
+                                                <Image src={paymentCard5Img} alt="" className="img-fluid" />
                                             </div>
                                         </div>
                                     </div>
