@@ -884,9 +884,9 @@ a {
 }
 
 header .header-area .main-nav {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: flex-end; */
 }
 header .header-area .main-nav .navbar-icons {
   display: none;

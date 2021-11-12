@@ -51,7 +51,7 @@ header .header-area .main-nav ul li a.active {
     color: #FF7F47!important;
 }
 .background-show {
-    background: linear-gradient(rgba(48, 79, 71, 0.65) 100%, rgba(48, 79, 71, 0.65) 100%), url('../../iiec-client/public/photo-1523050854058-8df90110c9f1.jpeg') no-repeat !important;
+    background: linear-gradient(rgb(8 8 8 / 70%) 100%, rgb(2 2 2 / 75%) 100%), url('../../iiec-client/public/photo-1523050854058-8df90110c9f1.jpeg') no-repeat !important;
     background-size: cover !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
@@ -65,3 +65,133 @@ header .header-area .main-nav ul li a.active {
     margin-top: 1.2rem;
     z-index: 2;
 } 
+.img-logo-container {
+    display: flex;
+    align-items: center;
+}
+.topbar-area {
+    height: 35px;
+    display: flex;
+    align-items: center;
+}
+.tob-bar-icons {
+    font-size: 20px !important;
+    color: #ffffff !important;
+}
+.search-input-span {     
+     border-bottom: 1px solid #4d4a4a;
+     display: flex;
+     font-size: 20px;
+    font-weight: 500;
+    padding: 5px;
+    color: #6c6666;
+}
+/* 1320 max width */
+.middle-header-container {
+    display: flex;
+    justify-content: space-between;
+    width: 1076px;
+    
+}
+.account-text {
+    font-weight: 500;
+    font-size: 18px;
+}
+.bottom-menu {
+    position: absolute;
+    z-index: 999;
+    top: 72px;
+    right: 0;
+}
+.bottom-menu-container {
+    
+    /* margin-left: 220px; */
+}
+.bottom-header-menu {
+    height: 56px;
+    width: 1306px;
+    background-color: #c8353b;
+    justify-content: space-evenly;
+    border-radius: 50px;
+    color: #ffffff;
+}
+.bottom-menu {
+    height: 56px;
+}
+/* .bottom-menu ul li a {
+    color: #ffffff !important;
+} */
+.sub-menu-title > a{
+    color: #ffffff !important;
+}
+.sub-menu-list a{
+    padding: 15px !important; 
+}
+.sub-menu-title a:hover{
+    color: #FF7F47 !important;
+}
+.black-clr {
+    color: black !important;
+}
+.black-clr > a {
+    color: black !important;
+}
+.hero-main-title {
+        font-size: 45px;
+    font-weight: 800;
+    padding-bottom: 20px;
+    color: white;
+}
+.hero-sub-title {
+       font-size: 26px;
+    font-weight: 700;
+    padding-bottom: 30px;
+    color: white;
+}
+
+/* Info component */
+.info-wrapper {
+    /* position: absolute; */
+
+}
+.achievement-card {
+    background: #ffffff !important;
+    color: #415dd7 !important;
+    /* #fc575e#f7b42c */
+    /* background: #c8353b !important; */
+    /* background: #c8353b !important; */
+    /* background: linear-gradient(to right, #fc575e 0%, #f7b42c 100%) !important; */
+    /* background: linear-gradient(to right, #e11937 0%, #ff8300 100%) !important; */
+}
+.achievement-card i, .achievement-card h5 {
+     color: #415dd7 !important;
+}
+.achievement-card * {
+    color: #474a57 !important;
+}
+.card-subtitle {
+    color: #717583 !important;
+}
+.card-info-col:hover {
+    /* background-color: blanchedalmond; */
+}
+
+
+/* Blog Area */
+.blog-area {
+    margin-top: 40px;
+    background-color: #f2f3f7;
+    padding-bottom: 120px;
+}
+.blog-date {
+    background-color: #c8353b !important;
+}
+.blog-date i {
+       color: #ffffff !important;
+}
+.blog-title {
+ color: #717583 !important;   
+}
+.blog-writer {
+    color: #717583 !important;
+}

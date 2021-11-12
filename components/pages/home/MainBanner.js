@@ -62,11 +62,10 @@ class MainBanner extends Component {
                         <div style={{background: '#00000'}} className="slider-item slider-item-1 background-show">
                             <div className="container">
                                 <div className="slider-content wow fadeInLeft animated" data-wow-delay="300ms" data-wow-duration="1500ms">
-                                    <h2>Amazing Tour In
-                                        Hampshire </h2>
-                                    <h5>7 Days, 8 Night Tour</h5>
+                                    <div className='hero-main-title'>OPENING A WORLD OF OPPORTUNITIES</div>
+                                    <div className='hero-sub-title'>Get Online Counselling from IIEC Expert</div>
                                     <div className="banner-btn">
-                                        <Link href={`${process.env.PUBLIC_URL}/package`}><a className="btn-common">Book Now</a></Link>
+                                        <Link href={`${process.env.PUBLIC_URL}/package`}><a className="btn-common">Register Now!</a></Link>
                                     </div>
                                 </div>
                             </div>
@@ -74,11 +73,10 @@ class MainBanner extends Component {
                         <div className="slider-item slider-item-2">
                             <div className="container">
                                 <div className="slider-content wow fadeInLeft animated" data-wow-delay="300ms" data-wow-duration="1500ms">
-                                    <h2>Amazing Tour In
-                                        Indonesia </h2>
-                                    <h5>7 Days, 8 Night Tour</h5>
+                                    <div className='hero-main-title'>STUDY ABROAD</div>
+                                    <div className='hero-sub-title'>UK, USA, AUSTRALIA, CANADA, NEW ZELAND, EUROPE & MORE</div>
                                     <div className="banner-btn">
-                                        <Link href={`${process.env.PUBLIC_URL}/package`}><a className="btn-common">Book Now</a></Link>
+                                        <Link href={`${process.env.PUBLIC_URL}/package`}><a className="btn-common">Find Scholarship</a></Link>
                                     </div>
                                 </div>
                             </div>
@@ -86,11 +84,10 @@ class MainBanner extends Component {
                         <div className="slider-item slider-item-3">
                             <div className="container">
                                 <div className="slider-content wow fadeInLeft animated" data-wow-delay="300ms" data-wow-duration="1500ms">
-                                    <h2>Amazing Tour In
-                                        madagascar </h2>
-                                    <h5>7 Days, 8 Night Tour</h5>
+                                    <div className='hero-main-title'>EXPERT GUIDANCE</div>
+                                    <div className='hero-sub-title'>LET OUR EXPERTS HELP YOU FIND THE BEST OPTIONS</div>
                                     <div className="banner-btn">
-                                        <Link href={`${process.env.PUBLIC_URL}/package`}><a className="btn-common">Book Now</a></Link>
+                                        <Link href={`${process.env.PUBLIC_URL}/package`}><a className="btn-common">Learn More</a></Link>
                                     </div>
                                 </div>
                             </div>

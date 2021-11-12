@@ -51,13 +51,13 @@ class HomePage extends Component {
 
         {/*---------Start Imported All Sections-----------*/}
         <MainBanner />
-        <Packages />
         <Info />
+        <Packages />
         {/* <Destinations/>  */}
         {/* <Achievement/> */}
         <Review />
         {/* <Features/> */}
-        {/* <Blog/>    */}
+        <Blog/>   
         {/*---------End Imported All Sections-----------*/}
       </div>
     );

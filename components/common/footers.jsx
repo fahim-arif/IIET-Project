@@ -284,19 +284,19 @@ class Footers extends Component {
                                             <div className="category-list">
                                                 <ul>
                                                     <li>
-                                                        <Link href={`${process.env.PUBLIC_URL}/contact`} onClick={this.scrollTop} >Contact us</Link>
+                                                        <Link href={`/contact`} onClick={this.scrollTop} >Contact us</Link>
                                                     </li>
                                                     <li>
-                                                        <Link href={`${process.env.PUBLIC_URL}/about-us`} onClick={this.scrollTop}>About us</Link>
+                                                        <Link href={`/about-us`} onClick={this.scrollTop}>About us</Link>
                                                     </li>
                                                     <li>
-                                                        <Link href={`${process.env.PUBLIC_URL}/destination`} onClick={this.scrollTop} >Destinations</Link>
+                                                        <Link href={`/destination`} onClick={this.scrollTop} >Destinations</Link>
                                                     </li>
                                                     <li>
-                                                        <Link href={`${process.env.PUBLIC_URL}/blog`} onClick={this.scrollTop}>our Blogs</Link>
+                                                        <Link href={`/blog`} onClick={this.scrollTop}>our Blogs</Link>
                                                     </li>
                                                     <li>
-                                                        <Link href={`${process.env.PUBLIC_URL}/package`} className="sub-item" onClick={this.scrollTop}>Package</Link>
+                                                        <Link href={`/package`} className="sub-item" onClick={this.scrollTop}>Package</Link>
                                                     </li>
                                                 </ul>
                                             </div>
