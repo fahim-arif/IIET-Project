@@ -58,8 +58,7 @@ class Review extends Component {
                    <div className="row">
                        <div className="col-lg-12 col-md-12 col-sm-12">
                            <div className="section-head pb-40">
-                               <h5>Our Traveller Say</h5>
-                               <h2>What Oue Traveller Say About Us</h2>
+                               <h2>What Our Students Say About Us</h2>
                            </div>
                        </div>
                    </div>
@@ -70,7 +69,7 @@ class Review extends Component {
                            </div>
                            <div className="reviewer-info">
                                <h3>Dina Jems</h3>
-                               <h5>Traveller</h5>
+                               <h5>University Student, US</h5>
                                <p>Fusce aliquam luctus est, eget tincidunt velit scelerisque rhoncus. Aliquam lacinia ipsum ornare, porttitor risus nec,
                                    mattis mauris. </p>
                            </div>
@@ -81,7 +80,7 @@ class Review extends Component {
                            </div>
                            <div className="reviewer-info">
                                <h3>Jahid Hassan</h3>
-                               <h5>Traveller</h5>
+                               <h5>Post Graduate, Canada</h5>
                                <p>Fusce aliquam luctus est, eget tincidunt velit scelerisque rhoncus. Aliquam lacinia ipsum ornare, porttitor risus nec,
                                    mattis mauris. </p>
                            </div>
@@ -92,7 +91,7 @@ class Review extends Component {
                            </div>
                            <div className="reviewer-info">
                                <h3>Shwan Pull</h3>
-                               <h5>Traveller</h5>
+                               <h5>PhD, Australia</h5>
                                <p>Fusce aliquam luctus est, eget tincidunt velit scelerisque rhoncus. Aliquam lacinia ipsum ornare, porttitor risus nec,
                                    mattis mauris. </p>
                            </div>

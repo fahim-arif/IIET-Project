@@ -185,7 +185,7 @@ class Footers extends Component {
     }
 
     //Set data
- 
+
     //Un set data
     componentWillUnmount() {
 
@@ -200,7 +200,7 @@ class Footers extends Component {
         return (
             <>
                 {/* ===============  Newsletter area start =============== */}
-                <div className="newsletter-area pt-100" style={{marginBottom:"50px"}}>
+                <div className="newsletter-area pt-100" style={{marginBottom: "50px"}}>
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12 col-md-12">
@@ -223,7 +223,7 @@ class Footers extends Component {
                 {/* ==============  Footer area start================= */}
                 <div className="footer-area">
                     <div className="container">
-                        <div className="row"  style={{marginTop:'-120px'}}>
+                        <div className="row" style={{marginTop: '-120px'}}>
                             <div className="col-lg-4 col-md-12">
                                 <div className="footer-info">
                                     <div className="footer-logo">
@@ -306,11 +306,11 @@ class Footers extends Component {
                                         <div className="footer-links payment-links">
                                             <h5 className="widget-title">We Accepts:</h5>
                                             <div className="payment-cards">
-                                                <Image src={paymentCard2Img} alt="" className="img-fluid" />
-                                                <Image src={paymentCard1Img} alt="" className="img-fluid" />
-                                                <Image src={paymentCard3Img} alt="" className="img-fluid" />
-                                                <Image src={paymentCard4Img} alt="" className="img-fluid" />
-                                                <Image src={paymentCard5Img} alt="" className="img-fluid" />
+                                                <div className="img-fluid"><Image src={paymentCard2Img} alt="" layout="intrinsic" /></div>
+                                                <div className="img-fluid"><Image src={paymentCard1Img} alt="" layout="intrinsic" /></div>
+                                                <div className="img-fluid"><Image src={paymentCard3Img} alt="" layout="intrinsic" /></div>
+                                                <div className="img-fluid"><Image src={paymentCard4Img} alt="" layout="intrinsic" /></div>
+                                                <div className="img-fluid"><Image src={paymentCard5Img} alt="" layout="intrinsic" /></div>
                                             </div>
                                         </div>
                                     </div>

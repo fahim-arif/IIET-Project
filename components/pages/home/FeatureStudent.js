@@ -7,5 +7,4 @@ const FeatureStudent = () => {
         </div>
     )
 }
-
-export default FeatureStudent
+export default FeatureStudent;

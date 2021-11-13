@@ -1,0 +1,75 @@
+.container {
+    margin-top: 80px;
+    background-color: rgb(242, 243, 247);
+    font-weight: 500 !important;
+    color: #000 !important;
+}
+.wrapper {
+    display: flex;
+}
+.image_container {
+    flex: 1;
+    object-fit: contain;
+    display: flex;
+    align-items: center;
+}
+.form_container {
+    margin-top: 23px;
+    flex: 1;
+}
+.row {
+    display: flex;
+    /* justify-content: space-between; */
+}
+.input1, .input {
+    border-top: none !important;
+    border-right: none !important;
+    border-left: none !important;
+    background: rgb(242, 243, 247) !important; 
+    border-bottom: 1px solid #dbdbdb !important;
+    margin: 0 20px;
+    color: #1d202c !important;
+}
+.input::placeholder, .input1::placeholder {
+    color: #1d202c;
+    font-weight: 500;
+}
+.selectContainer {
+    flex:1;
+    margin-right: 40px;
+}
+.term_condition_container {
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.term_radio_btn label {
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.btn_container {
+    display: flex;
+    justify-content: flex-end !important;
+    margin-bottom: 23px;
+}
+.btn {
+    border: none;
+    background-color: #3162af;
+    margin-right: 20px;
+    padding: 5px 35px;
+    border-radius: 10px;
+    color: #ffffff;
+}
+.btn:hover {
+    color: #000;
+}
+.selectContainer select {
+    font-weight: 500;
+}
+.term_text {
+    font-size: 14px !important;
+    font-weight: 400 !important;
+}
+.term_radio_btn label {
+    font-size: 14px !important;
+    font-weight: 400 !important;
+}

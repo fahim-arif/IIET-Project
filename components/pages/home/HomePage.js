@@ -6,7 +6,10 @@ import Blog from "./Blog";
 import Features from "./Features";
 import Review from "./Review";
 import Info from './Info'
+import Askiiec from "./Askiiec";
+import Partners from "./Partners";
 import Achievement from "./Achievement";
+import StudentForm from './StudentForm.tsx';
 
 //Define Default Content
 class HomePage extends Component {
@@ -52,12 +55,15 @@ class HomePage extends Component {
         {/*---------Start Imported All Sections-----------*/}
         <MainBanner />
         <Info />
+        <StudentForm/>
         <Packages />
+         <Askiiec />
         {/* <Destinations/>  */}
         {/* <Achievement/> */}
-        <Review />
-        {/* <Features/> */}
         <Blog/>   
+        <Review />
+         <Partners />
+        {/* <Features/> */}
         {/*---------End Imported All Sections-----------*/}
       </div>
     );
