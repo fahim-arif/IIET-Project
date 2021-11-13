@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import {Link} from "react-router-dom";
+import Link from 'next/link'
 
 class BreadCrumb extends Component {
   render() {
@@ -14,7 +14,7 @@ class BreadCrumb extends Component {
                                <h2>About Us</h2>
                                <ul className="breadcrumb-links">
                                    <li>
-                                       <Link to={`${process.env.PUBLIC_URL}/`}>Home</Link>
+                                       <Link href={`${process.env.PUBLIC_URL}/`}>Home</Link>
                                        <i className="bx bx-chevron-right" />
                                    </li>
                                    <li>About Us</li>

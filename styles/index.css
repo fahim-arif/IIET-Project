@@ -51,7 +51,8 @@ header .header-area .main-nav ul li a.active {
     color: #FF7F47!important;
 }
 .background-show {
-    background: linear-gradient(rgb(8 8 8 / 70%) 100%, rgb(2 2 2 / 75%) 100%), url('../../iiec-client/public/photo-1523050854058-8df90110c9f1.jpeg') no-repeat !important;
+    background: linear-gradient(rgb(8 8 8 / 70%) 100%, rgb(2 2 2 / 75%) 100%), url('../assets/images/a-group-of-graduates-throwing-graduation-caps-in-t-2021-08-26-16-33-05-utc.jpg') no-repeat !important;
+    /* background: linear-gradient(rgb(8 8 8 / 70%) 100%, rgb(2 2 2 / 75%) 100%), url('../../iiec-client/public/photo-1523050854058-8df90110c9f1.jpeg') no-repeat !important; */
     background-size: cover !important;
     background-position: center !important;
     background-repeat: no-repeat !important;

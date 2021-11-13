@@ -25,7 +25,6 @@ class Blog extends Component {
                         <div className="row">
                             <div className="col-lg-12 col-md-12 col-sm-12">
                                 <div className="section-head pb-30">
-                                    <h5>Latest Blog</h5>
                                     <h2>Stay Updated And new post our Blog</h2>
                                 </div>
                             </div>

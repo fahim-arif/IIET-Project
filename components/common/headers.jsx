@@ -123,7 +123,7 @@ class Headers extends Component {
                                                 <i className="flaticon-user" />
                                                 <span onClick={() => this.handleAccountModal} className='account-text'> Account </span>
                                                 {/* <span onClick={() => this.setState((prevState) => ({accountModal: !prevState.accountModal}))} className='account-text'> Account </span> */}
-                                                <div id="accoundModal" className={`account-dropdown ${this.state.accountModal ? "activeCard" : "cc"}`}>
+                                                <div id="accoundModal" style={{zIndex:'99966', top:'39px'}} className={`account-dropdown ${this.state.accountModal ? "activeCard" : "cc"}`}>
                                                     <ul>
                                                         <li className="account-el">
                                                             <i className="bx bx-user-pin" />
