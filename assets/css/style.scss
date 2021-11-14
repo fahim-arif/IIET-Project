@@ -371,7 +371,7 @@ table tfoot tr th {
 a.btn-common-sm{
   display: inline-block;
   padding: 11px 20px 11px 30px;
-  background: $secondary-color;
+  background: #1d2321;
   border-radius: 5px;
   font-weight: 600;
   font-size: 14px;
@@ -390,7 +390,7 @@ a.btn-common-sm{
     width: 100%;
     position: absolute;
     content: "";
-    background: $primary-color;
+    background: #3162af;
     top: 0;
     left: 0;
     border-radius: 5px;
@@ -536,14 +536,15 @@ a{
   button.owl-dot{
     height: 10px;
     width: 25px;
-   background: $secondary-color;
+   background: #c8353b;
+   height: 15px;
     transition: all .3s;
     margin: 0 12.5px;
     border-radius: 5px;
   }
   button.active.owl-dot{
     height: 15px;
-    background: #3065ac;
+    background: #c62f2b;
   }
 }
 .owl-carousel.owl-loaded.owl-drag.destinations-1, .owl-carousel.owl-loaded.owl-drag.destinations-2 {
@@ -1028,7 +1029,7 @@ a{
   }
   .searchbar-icon{
     height: 55px;
-    background: $primary-color;
+    background: #c8353b;
     padding: 0px 20px;
     display: flex;
     justify-content: center;
@@ -2426,7 +2427,7 @@ border-radius: 0px 0px 3px 3px;
       a.blog-comment {
 
         i{
-          color: $primary-color;
+          color: #3162af;
           margin-right: 5px;
           font-size: 16px;
         }

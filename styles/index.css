@@ -99,19 +99,26 @@ header .header-area .main-nav ul li a.active {
 }
 .ask-img{
     border-radius: 30px;
-    min-height: 400px;
+    object-fit: contain;
+    /* min-height: 400px; */
     overflow: hidden;
     position: absolute;
     z-index: -1;
+}
+.ask-img img {
+    object-fit: cover;
 }
 .shadow {
     background-color: rgb(0, 0, 0);
     opacity: .35;
     z-index: 0;
     position: absolute;
-    height: 400px;
+    /* height: 400px;
     width: 307.750px;
-    border-radius: 30px;
+    border-radius: 30px; */
+    height: 205px;
+    width: 307.75px;
+    border-radius: 22px;
 }
 .ask-ques {
     position: absolute;
@@ -287,4 +294,8 @@ header .header-area .main-nav ul li a.active {
 }
 .blog-writer {
     color: #717583 !important;
+}
+.home-review-img img{
+    /* display: none; */
+    border-radius: 15px !important;
 }

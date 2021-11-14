@@ -31,7 +31,7 @@ class Blog extends Component {
                         </div>
                         <div className="row">
                             <div className="col-lg-4 col-md-6 col-sm-6 wow fadeInLeft animated" data-wow-duration="1500ms" data-wow-delay="0ms">
-                                <div className="blog-card">
+                                <div style={{width: '370px'}} className="blog-card">
                                     <div className="blog-img">
                                         <Image src={blog1Img} alt="" className="img-fluid" />
                                         <div className="blog-date"><i className="flaticon-calendar" /> 1 April, 2021</div>
@@ -41,16 +41,16 @@ class Blog extends Component {
                                             <Link href="/"><a className="blog-writer"><i className="flaticon-user" />Dina Jems</a></Link>
                                             <Link href="/"><a className="blog-comment"><i className="flaticon-comment" /><span>(3)</span>Comment</a></Link>
                                         </div>
-                                        <Link href={`${process.env.PUBLIC_URL}/blog-details`} className="blog-title">Donec egestas orci viverra
-                                            fermentum risus.</Link>
+                                        <Link href={`${process.env.PUBLIC_URL}/blog-details`}><a className="blog-title">Donec egestas orci viverra
+                                            fermentum risus.</a></Link>
                                         <div className="blog-btn">
-                                            <Link href={`${process.env.PUBLIC_URL}/blog-details`} className="btn-common-sm">Read More</Link>
+                                            <Link href={`${process.env.PUBLIC_URL}/blog-details`}><a className="btn-common-sm">Read More</a></Link>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div className="col-lg-4 col-md-6 col-sm-6  wow fadeInLeft animated" data-wow-duration="1500ms" data-wow-delay="300ms">
-                                <div className="blog-card">
+                                <div style={{width: '370px'}} className="blog-card">
                                     <div className="blog-img">
                                         <Image src={blog2Img} alt="" className="img-fluid" />
                                         <div className="blog-date"><i className="flaticon-calendar" /> 1 April, 2021</div>
@@ -60,15 +60,15 @@ class Blog extends Component {
                                             <Link href="/"><a className="blog-writer"><i className="flaticon-user" />Dina Jems </a></Link>
                                             <Link href="/"><a className="blog-comment"><i className="flaticon-comment" /><span>(3)</span>Comment</a></Link>
                                         </div>
-                                        <Link href={`${process.env.PUBLIC_URL}/blog-details`} className="blog-title">Praesent ut mattis ante the Nullam lobortis.</Link>
+                                        <Link href={`${process.env.PUBLIC_URL}/blog-details`}><a className="blog-title">Praesent ut mattis ante the Nullam lobortis.</a></Link>
                                         <div className="blog-btn">
-                                            <Link href={`${process.env.PUBLIC_URL}/blog-details`} className="btn-common-sm">Read More</Link>
+                                            <Link href={`${process.env.PUBLIC_URL}/blog-details`}><a className="btn-common-sm">Read More</a></Link>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div className="col-lg-4 col-md-6 col-sm-6 wow fadeInLeft animated" data-wow-duration="1500ms" data-wow-delay="600ms">
-                                <div className="blog-card">
+                                <div style={{width: '370px'}} className="blog-card">
                                     <div className="blog-img">
                                         <Image src={blog3Img} alt="" className="img-fluid" />
                                         <div className="blog-date"><i className="flaticon-calendar" /> 1 April, 2021</div>
@@ -78,9 +78,9 @@ class Blog extends Component {
                                             <Link href="/"><a className="blog-writer"><i className="flaticon-user" />Dina Jems</a></Link>
                                             <Link href="/"><a className="blog-comment"><i className="flaticon-comment" /><span>(3)</span>Comment</a></Link>
                                         </div>
-                                        <Link href={`${process.env.PUBLIC_URL}/blog-details`} className="blog-title">Maecenas vehicula risus non neque tincidunt.</Link>
+                                        <Link href={`${process.env.PUBLIC_URL}/blog-details`}><a className="blog-title">Maecenas vehicula risus non neque tincidunt.</a></Link>
                                         <div className="blog-btn">
-                                            <Link href={`${process.env.PUBLIC_URL}/blog-details`} className="btn-common-sm">Read More</Link>
+                                            <Link href={`${process.env.PUBLIC_URL}/blog-details`}><a className="btn-common-sm">Read More</a></Link>
                                         </div>
                                     </div>
                                 </div>

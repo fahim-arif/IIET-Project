@@ -229,8 +229,7 @@ class Footers extends Component {
                                     <div className="footer-logo">
                                         <Image src={logoMain} alt="" className="img-fluid" />
                                     </div>
-                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid maxime aut ut voluptate
-                                        dolorum nisi ducimus ratione</p>
+                                    <p>We provide the best training and coaching for all the qualifying exams</p>
                                     <div className="footer-social-icons">
                                         <h5>Follow Us:</h5>
                                         <ul>
@@ -272,8 +271,7 @@ class Footers extends Component {
                                             <div className="contact-box">
                                                 <span><i className="bx bx-location-plus" /></span>
                                                 <div>
-                                                    <Link href="/">2752 Willison Street
-                                                        Eagan, United State</Link>
+                                                    <Link href="/">Chennai, India</Link>
                                                 </div>
                                             </div>
                                         </div>
@@ -306,11 +304,10 @@ class Footers extends Component {
                                         <div className="footer-links payment-links">
                                             <h5 className="widget-title">We Accepts:</h5>
                                             <div className="payment-cards">
-                                                <div className="img-fluid"><Image src={paymentCard2Img} alt="" layout="intrinsic" /></div>
-                                                <div className="img-fluid"><Image src={paymentCard1Img} alt="" layout="intrinsic" /></div>
-                                                <div className="img-fluid"><Image src={paymentCard3Img} alt="" layout="intrinsic" /></div>
+                                                <div style={{padding:'0 5px'}} className="img-fluid"><Image src={paymentCard2Img} alt="" layout="intrinsic" /></div>
+                                                <div style={{padding:'0 5px'}} className="img-fluid"><Image src={paymentCard1Img} alt="" layout="intrinsic" /></div>
+                                                <div style={{padding:'0 5px'}} className="img-fluid"><Image src={paymentCard3Img} alt="" layout="intrinsic" /></div>
                                                 <div className="img-fluid"><Image src={paymentCard4Img} alt="" layout="intrinsic" /></div>
-                                                <div className="img-fluid"><Image src={paymentCard5Img} alt="" layout="intrinsic" /></div>
                                             </div>
                                         </div>
                                     </div>
@@ -320,7 +317,7 @@ class Footers extends Component {
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="copyrigth-area">
-                                    <p>Copyright 2021 <Link href='/'>TourX</Link> | Design By <Link href='/'>Egens Lab</Link></p>
+                                    <p>Copyright 2021 <Link href='/'>IIEC</Link> | Design & Developed By <Link href='/'>Primates Developement</Link></p>
                                 </div>
                             </div>
                         </div>
