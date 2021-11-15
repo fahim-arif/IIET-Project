@@ -91,17 +91,20 @@ class Headers extends Component {
                                         <div className="logo d-flex justify-content-between">
                                             <Link href='/'><a className="navbar-brand img-logo" onClick={this.scrollTop}><Image src={logoMain} alt="" /></a></Link>
                                         </div>
-                                        <div className="navbar-icons">
+                                        <div className="navbar-icons" >
                                             <div className="searchbar-open">
                                             </div>
-                                            <div className="mobile-menu d-flex ">
+                                            <div className="mobile-menu d-flex " >
                                                 <div className="top-search-bar m-0 d-block d-xl-none">
                                                 </div>
-                                                <Link href="/"><a className="hamburger d-block d-xl-none">
+                                                <a className="hamburger d-block d-xl-none" style={{position:"absolute",right:10, top:0}}>
+                                                <Link href="/">
+                                                    <>
                                                     <span className="h-top" />
                                                     <span className="h-middle" />
                                                     <span className="h-bottom" />
-                                                </a></Link>
+                                                    </>
+                                                </Link></a>
                                             </div>
                                         </div>
                                     </div>
@@ -127,7 +130,7 @@ class Headers extends Component {
                                                     <ul>
                                                         <li className="account-el">
                                                             <i className="bx bx-user-pin" />
-                                                            <Link href="/" >Sign in</Link>
+                                                            <Link href="/signin" >Sign in</Link>
                                                         </li>
                                                         <li className="account-el">
                                                             <i className="bx bxs-user-account" />
@@ -167,10 +170,10 @@ class Headers extends Component {
 
                                         <ul>
                                             <li className='sub-menu-title'>
-                                                <Link href={"#"}>HOME</Link>
+                                                <Link href={"/"}>HOME</Link>
                                             </li>
                                             <li className='sub-menu-title'>
-                                                <Link activeClassName="active" href={`${process.env.PUBLIC_URL}/about-us`} onClick={this.scrollTop} >About IIEC</Link >
+                                                <Link activeClassName="active" href={`/about-us`} onClick={this.scrollTop} >About IIEC</Link >
                                             </li>
                                             <li className='sub-menu-title'>
                                                 <Link activeClassName="active" href={`${process.env.PUBLIC_URL}/destination`} onClick={this.scrollTop} >IIEC HTMI</Link>
@@ -184,7 +187,7 @@ class Headers extends Component {
                                                 <ul className="sub-menu">
                                                     <li className='sub-menu-list sub-menu-title black-clr'>
 
-                                                        <Link href={"#"} className="sub-item has-child-menu " style={{color: '#000000 !important'}} onClick={this.scrollTop}>EDUCATION</Link>
+                                                        <Link href={"/services/education"} className="sub-item has-child-menu " style={{color: '#000000 !important'}} onClick={this.scrollTop}>EDUCATION</Link>
                                                         <ul className="sub-menu">
                                                             <li className='sub-menu-list'>
                                                                 <Link activeClassName="active" href={`${process.env.PUBLIC_URL}/package-sidebar`} className="sub-item" onClick={this.scrollTop}>Study in Korea</Link>
@@ -216,7 +219,7 @@ class Headers extends Component {
                                                         </ul>
                                                     </li>
                                                     <li className='sub-menu-list'>
-                                                        <Link href={"#"} className="sub-item has-child-menu" onClick={this.scrollTop}>VISA</Link>
+                                                        <Link href={"/services/visa"} className="sub-item has-child-menu" onClick={this.scrollTop}>VISA</Link>
                                                         <ul className="sub-menu">
                                                             <li className='sub-menu-list'>
                                                                 <Link activeClassName="active" href={`${process.env.PUBLIC_URL}/package-sidebar`} className="sub-item" onClick={this.scrollTop}>Business VISA</Link>
@@ -242,7 +245,7 @@ class Headers extends Component {
                                                         </ul>
                                                     </li>
                                                     <li className='sub-menu-list'>
-                                                        <Link href="/" className="sub-item has-child-menu" onClick={this.scrollTop}>IMIGRATION</Link>
+                                                        <Link href="/services/immigration" className="sub-item has-child-menu" onClick={this.scrollTop}>IMIGRATION</Link>
                                                         <ul className="sub-menu">
                                                             <li className='sub-menu-list'>
                                                                 <Link activeClassName="active" href={`${process.env.PUBLIC_URL}/package-sidebar`} className="sub-item" onClick={this.scrollTop}>CANADA</Link>
@@ -256,7 +259,7 @@ class Headers extends Component {
                                                         </ul>
                                                     </li>
                                                     <li className='sub-menu-list'>
-                                                        <Link href={"#"} className="sub-item has-child-menu" onClick={this.scrollTop}>TRAINING</Link>
+                                                        <Link href={"/services/training"} className="sub-item has-child-menu" onClick={this.scrollTop}>TRAINING</Link>
                                                         <ul className="sub-menu">
                                                             <li className='sub-menu-list'>
                                                                 <Link activeClassName="active" href={`${process.env.PUBLIC_URL}/package-sidebar`} className="sub-item" onClick={this.scrollTop}>IELTS</Link>
@@ -279,7 +282,7 @@ class Headers extends Component {
                                                         </ul>
                                                     </li>
                                                     <li className='sub-menu-list'>
-                                                        <Link href={"#"} className="sub-item has-child-menu" onClick={this.scrollTop}>INTERNSHIP</Link>
+                                                        <Link href={"/services/internship"} className="sub-item has-child-menu" onClick={this.scrollTop}>INTERNSHIP</Link>
                                                         <ul className="sub-menu">
                                                             <li className='sub-menu-list'>
                                                                 <Link href={`${process.env.PUBLIC_URL}/package-sidebar`} className="sub-item" onClick={this.scrollTop}>USA J-1</Link>
@@ -298,31 +301,28 @@ class Headers extends Component {
                                                 </ul>
                                             </li>
                                             <li className="sub-menu-list sub-menu-title">
-                                                <Link activeClassName="active" href={`${process.env.PUBLIC_URL}/about-us`} onClick={this.scrollTop} >EVENTS</Link >
+                                                <Link activeClassName="active" href={`/events`} onClick={this.scrollTop} >EVENTS</Link >
                                             </li>
                                             <li className="sub-menu-list sub-menu-title">
-                                                <Link activeClassName="active" href={`${process.env.PUBLIC_URL}/about-us`} onClick={this.scrollTop} >BLOGS</Link >
+                                                <Link activeClassName="active" href={`/blogs`} onClick={this.scrollTop} >BLOGS</Link >
                                             </li>
                                             <li className="has-child-menu sub-menu-title">
                                                 <Link href={"#"}>INFORMATION</Link>
                                                 <i className="fl flaticon-plus">+</i>
                                                 <ul className="sub-menu">
                                                     <li className="sub-menu-list">
-                                                        <Link activeClassName="active" href={`${process.env.PUBLIC_URL}/gallary`} className="sub-item" onClick={this.scrollTop}>gallary page</Link>
+                                                        <Link activeClassName="active" href={`/information/student-testimonial`} className="sub-item" onClick={this.scrollTop}>Students Testimonials</Link>
                                                     </li>
                                                     <li className="sub-menu-list">
-                                                        <Link activeClassName="active" href={`${process.env.PUBLIC_URL}/guide`} className="sub-item" onClick={this.scrollTop}>guide page</Link>
+                                                        <Link activeClassName="active" href={`/information/video-testimonial`} className="sub-item" onClick={this.scrollTop}>Video Testimonials</Link>
                                                     </li>
                                                     <li className="sub-menu-list">
-                                                        <Link activeClassName="active" href={`${process.env.PUBLIC_URL}/destination`} className="sub-item" onClick={this.scrollTop}>destination page</Link>
-                                                    </li>
-                                                    <li className="sub-menu-list">
-                                                        <Link activeClassName="active" href={`${process.env.PUBLIC_URL}/404`} className="sub-item" onClick={this.scrollTop}>404 Page</Link>
-                                                    </li>
-                                                    <li className="sub-menu-list">
-                                                        <Link activeClassName="active" href={`${process.env.PUBLIC_URL}/faq`} className="sub-item" onClick={this.scrollTop}>FAQ page</Link>
+                                                        <Link activeClassName="active" href={`/information/gallary`} className="sub-item" onClick={this.scrollTop}>Gallery</Link>
                                                     </li>
                                                 </ul>
+                                            </li>
+                                            <li className="sub-menu-list sub-menu-title">
+                                                <Link activeClassName="active" href={`/courses`} onClick={this.scrollTop} >COURCES</Link >
                                             </li>
                                         </ul>
                                     </div>
