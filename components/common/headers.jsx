@@ -262,22 +262,22 @@ class Headers extends Component {
                                                         <Link href={"/services/training"} className="sub-item has-child-menu" onClick={this.scrollTop}>TRAINING</Link>
                                                         <ul className="sub-menu">
                                                             <li className='sub-menu-list'>
-                                                                <Link activeClassName="active" href={`${process.env.PUBLIC_URL}/package-sidebar`} className="sub-item" onClick={this.scrollTop}>IELTS</Link>
+                                                                <Link activeClassName="active" href={`/services/training/ielts`} className="sub-item" onClick={this.scrollTop}>IELTS</Link>
                                                             </li>
                                                             <li className='sub-menu-list'>
-                                                                <Link activeClassName="active" href={`${process.env.PUBLIC_URL}/package-sidebar`} className="sub-item" onClick={this.scrollTop}>TOEFL</Link>
+                                                                <Link activeClassName="active" href={`/services/training/toefl`} className="sub-item" onClick={this.scrollTop}>TOEFL</Link>
                                                             </li>
                                                             <li className='sub-menu-list'>
-                                                                <Link activeClassName="active" href={`${process.env.PUBLIC_URL}/package-sidebar`} className="sub-item" onClick={this.scrollTop}>PTE</Link>
+                                                                <Link activeClassName="active" href={`/services/training/pte`} className="sub-item" onClick={this.scrollTop}>PTE</Link>
                                                             </li>
                                                             <li className='sub-menu-list'>
-                                                                <Link activeClassName="active" href={`${process.env.PUBLIC_URL}/package-sidebar`} className="sub-item" onClick={this.scrollTop}>GMAT</Link>
+                                                                <Link activeClassName="active" href={`/services/training/gmat`} className="sub-item" onClick={this.scrollTop}>GMAT</Link>
                                                             </li>
                                                             <li className='sub-menu-list'>
-                                                                <Link activeClassName="active" href={`${process.env.PUBLIC_URL}/package-sidebar`} className="sub-item" onClick={this.scrollTop}>SAT</Link>
+                                                                <Link activeClassName="active" href={`/services/training/sat`} className="sub-item" onClick={this.scrollTop}>SAT</Link>
                                                             </li>
                                                             <li className='sub-menu-list'>
-                                                                <Link activeClassName="active" href={`${process.env.PUBLIC_URL}/package-sidebar`} className="sub-item" onClick={this.scrollTop}>GRE</Link>
+                                                                <Link activeClassName="active" href={`/services/training/gre`} className="sub-item" onClick={this.scrollTop}>GRE</Link>
                                                             </li>
                                                         </ul>
                                                     </li>
