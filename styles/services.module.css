@@ -59,6 +59,7 @@
 .immcontainer {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-evenly;
   padding: 8px;
   border-bottom: 1.5px solid chocolate;
@@ -158,6 +159,29 @@
   background-color: #ddd;
   transform: scale(1.015);
   transition: 0.3s;
+}
+.enquireyBox{
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin: 20px;
+  padding:35px;
+  margin-top: 0;
+}
+.enquireyTitle{
+  color: red;
+  font-weight: 900;
+}
+.enquireyText{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.enquireybu{
+  border:none;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  background-color: tomato;
 }
 @media only screen and (max-width: 1200px) {
   .container {
