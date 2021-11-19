@@ -1,0 +1,215 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  justify-content: space-evenly;
+  margin: 50px auto;
+}
+.form {
+  margin: 0 auto;
+  display: flex;
+  flex: 2;
+  width: 100%;
+  flex-direction: column;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  flex: 4;
+}
+.formheading {
+  text-align: center;
+  font-weight: 700;
+  text-decoration: underline;
+  color: #0d6efd;
+  margin: 15px;
+  margin-top: 0;
+}
+.headinfo {
+  margin: 15px auto;
+}
+.headinfo2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.heading {
+  margin-bottom: 10px;
+  color: chocolate;
+}
+.heading2 {
+  margin-bottom: 10px;
+  color: chocolate;
+  font-weight: 600;
+}
+.formContainer {
+  padding: 30px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin: 15px;
+  margin-top: 0;
+  /* border-radius: 10px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.immtypecontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.immcontainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 8px;
+  border-bottom: 1.5px solid chocolate;
+}
+.immimage {
+  flex: 2;
+}
+.immcontent {
+  flex: 4;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+  padding-top: 3px;
+}
+.immhead {
+  font-size: 22px;
+  color: chocolate;
+  font-weight: 600;
+}
+.listcontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  flex: 2;
+}
+.lists {
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+  flex: 1;
+  margin: 8px;
+}
+.listitems {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.ieltimgcontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.ielts {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+}
+.ieltimg {
+  width: 300;
+  box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px,
+    rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px,
+    rgba(240, 46, 170, 0.05) 25px 25px;
+}
+.ieltimgtext {
+  font-size: 20px;
+  font-weight: 800;
+  text-transform: uppercase;
+  padding: 6px;
+}
+.toeflcontainer{
+  display: flex;
+  flex-direction: column;
+}
+.toeflinfocontainer{
+  display: flex;
+  flex-direction: row;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1.5px solid chocolate;
+}
+.toeflkey{
+  font-weight: 800;
+  flex: 1;
+}
+.toeflinfo{
+  flex: 2;
+}
+.table{
+  display: flex;
+  width: 100%;
+}
+.trth{
+  color: white;
+  background-color: tomato;
+}
+.tr:nth-child(even){
+  background-color: #ddd;
+}
+.tr:nth-child(odd){
+  background-color: #f9f9f9;
+}
+.tr:hover{
+  background-color: #ddd;
+  transform: scale(1.015);
+  transition: 0.3s;
+}
+.enquireyBox{
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin: 20px;
+  padding:35px;
+  margin-top: 0;
+}
+.enquireyTitle{
+  color: red;
+  font-weight: 900;
+}
+.enquireyText{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.enquireybu{
+  border:none;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  background-color: tomato;
+}
+@media only screen and (max-width: 1200px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    align-items: center;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .immcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 8px;
+    border-bottom: 1.5px solid salmon;
+  }
+  .ieltimgcontainer{
+    flex-direction: column;
+  }
+  .listcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .toeflinfocontainer{
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+  }
+}
