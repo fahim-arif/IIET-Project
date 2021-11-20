@@ -18,12 +18,15 @@
   flex: 4;
 }
 .formheading {
-  text-align: center;
-  font-weight: 700;
-  text-decoration: underline;
-  color: #0d6efd;
+  padding: 25px;
+  background-color: #0d6efd;
   margin: 15px;
-  margin-top: 0;
+  margin-bottom: 0;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  font-weight: 900;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .headinfo {
   margin: 15px auto;
@@ -181,7 +184,7 @@
   padding: 10px;
   border-radius: 5px;
   color: white;
-  background-color: tomato;
+  background-color: #0d6efd;
 }
 @media only screen and (max-width: 1200px) {
   .container {

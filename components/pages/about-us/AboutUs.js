@@ -415,7 +415,7 @@ class AboutUs extends Component {
                     justifyContent: "space-between",
                   }}
                 >
-                  <b>&#8699; </b> Application forms, document check lists,
+                  <b>&#x27A4; </b> Application forms, document check lists,
                   prospectus etc. for Colleges and Universities the world over.
                 </li>
                 <li
@@ -425,7 +425,7 @@ class AboutUs extends Component {
                     justifyContent: "space-between",
                   }}
                 >
-                  <b>&#8699; </b> Comprehensive Coaching and Training for IELTS,
+                  <b>&#x27A4; </b> Comprehensive Coaching and Training for IELTS,
                   TOEFL, PTE, SAT, GMAT, GRE etc. We also offer excellent
                   training in foreign languages like French, German, Japanese
                   and Russian etc.
@@ -437,7 +437,7 @@ class AboutUs extends Component {
                     justifyContent: "space-between",
                   }}
                 >
-                  <b>&#8699; </b> Guidance on short listing courses and choosing
+                  <b>&#x27A4; </b> Guidance on short listing courses and choosing
                   the best Universities and Colleges.
                 </li>
                 <li
@@ -447,7 +447,7 @@ class AboutUs extends Component {
                     justifyContent: "space-between",
                   }}
                 >
-                  <b>&#8699; </b> Expert Advice on creating a SOP and acquiring
+                  <b>&#x27A4; </b> Expert Advice on creating a SOP and acquiring
                   Appreciation Letters. We provide sample formats for Essays and
                   Recommendation Letters.
                 </li>
@@ -458,7 +458,7 @@ class AboutUs extends Component {
                     justifyContent: "space-between",
                   }}
                 >
-                  <b>&#8699; </b> Thorough guidance on providing correct Bank
+                  <b>&#x27A4; </b> Thorough guidance on providing correct Bank
                   Statements, Financial Documentation etc.
                 </li>
                 <li
@@ -468,7 +468,7 @@ class AboutUs extends Component {
                     justifyContent: "space-between",
                   }}
                 >
-                  <b>&#8699; </b> Comprehensive One Stop Travel Assistance
+                  <b>&#x27A4; </b> Comprehensive One Stop Travel Assistance
                   including Ticketing, Forex, Insurance, Concessional fares,
                   additional luggage allowance etc.
                 </li>
@@ -479,7 +479,7 @@ class AboutUs extends Component {
                     justifyContent: "space-between",
                   }}
                 >
-                  <b>&#8699; </b> Briefing and assistance on finding
+                  <b>&#x27A4; </b> Briefing and assistance on finding
                   accommodation post arrival at the destination.
                 </li>
                 <li
@@ -489,7 +489,7 @@ class AboutUs extends Component {
                     justifyContent: "space-between",
                   }}
                 >
-                  <b>&#8699; </b> Guidance and advice followed by complete
+                  <b>&#x27A4; </b> Guidance and advice followed by complete
                   documentation and processing for all categories of Visa
                   applications.
                 </li>
@@ -500,7 +500,7 @@ class AboutUs extends Component {
                     justifyContent: "space-between",
                   }}
                 >
-                  <b>&#8699; </b> Pre-departure briefing about the destination.
+                  <b>&#x27A4; </b> Pre-departure briefing about the destination.
                 </li>
                 <li
                   style={{
@@ -509,7 +509,7 @@ class AboutUs extends Component {
                     justifyContent: "space-between",
                   }}
                 >
-                  <b>&#8699; </b> Several Value Added Services Post Arrival
+                  <b>&#x27A4; </b> Several Value Added Services Post Arrival
                   including local banking, travelling, local communities etc.
                 </li>
               </ul>
