@@ -48,7 +48,7 @@ class Review extends Component {
                     items: 3,
                     dots: true,
                     nav: false,
-                    loop: true
+                    loop: false
                 }
             }
         };

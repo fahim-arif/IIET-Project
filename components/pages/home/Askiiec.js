@@ -15,7 +15,7 @@ const Askiiec = () => {
     const reviewOptions = {
         stagePadding: 10,
         items: 4,
-        loop: true,
+        loop: false,
         margin: 15,
         smartSpeed: 1500,
         dots: true,
@@ -33,8 +33,7 @@ const Askiiec = () => {
             1000: {
                 items: 4,
                 dots: true,
-                nav: false,
-                loop: true
+                loop: false
             }
         }
     };
@@ -48,7 +47,7 @@ const Askiiec = () => {
                         </div>
                     </div>
                 </div>
-                <OwlCarousel className="review-slider owl-carousel"  {...reviewOptions}>
+                <OwlCarousel className="review-slider owl-carousel" loop={false} {...reviewOptions}>
 
                     <div className="ask-card" >
                         <div className='shadow'>1</div>
@@ -62,7 +61,7 @@ const Askiiec = () => {
                         </div>
                     </div>
                     <div className="ask-card" >
-                        <div style={{height: '200px', borderRadius: '28px'}} className='shadow'>1</div>
+                        <div className='shadow'>1</div>
                         <div className="ask-img"><Image src={askiiec2} alt="" /></div>
                         <div className="ask-head">Answered by :<p style={{color: "whitesmoke"}}>Consultant name</p></div>
                         <div className="button-play">
@@ -106,7 +105,7 @@ const Askiiec = () => {
                         </div>
                     </div>
                     <div className="ask-card" >
-                        <div style={{height: '200px', borderRadius: '28px'}} className='shadow'>1</div>
+                        <div className='shadow'>1</div>
                         <div className="ask-img"><Image src={askiiec2} alt="" /></div>
                         <div className="ask-head">Answered by :<p style={{color: "whitesmoke"}}>Consultant name</p></div>
                         <div className="button-play">
