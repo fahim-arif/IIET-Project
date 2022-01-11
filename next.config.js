@@ -1,5 +1,13 @@
 /** @type {import('next').NextConfig} */
 module.exports = {
+    async rewrites() {
+        return [
+            {
+                source: '/',
+                destination: 'https://localhost:5000/*',
+            },
+        ]
+    },
     module: {
         rules: [
             {

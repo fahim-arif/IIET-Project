@@ -1,33 +1,51 @@
-import React from 'react'
+import { useForm, SubmitHandler} from 'react-hook-form'
 import Image from 'next/image'
-import mainBanner from '../../../assets/images/develop-of-education-at-the-university-2021-08-26-20-16-09-utc.jpg'
+import mainBanner from '../../../assets/images/indian-international-student-in-Germany.jpg'
 import classes from '../../../styles/studentForm.module.css'
+import {postLead} from '@modules/LandingPage/Services/LeadGeneration.Service'
+
+type Inputs = {
+  firstName: string,
+  lastName: string,
+  email: string,
+  phoneNo: string,
+  preferDestination: string,
+  startDate: string,
+  officeLocation: string,
+  preferCounsel: string,
+  fundOption: string,
+  studyLevel: string,
+};
 
 const StudentForm = () => {
+
+     const { register, handleSubmit, watch, formState: { errors } } = useForm<Inputs>();
+     const onSubmit: SubmitHandler<Inputs> = async(data) => {
+        await postLead(data);
+     }
+
     return (
         <div className={classes.container}>
             <div className={classes.wrapper}>
                 <div className={classes.image_container}>
-
-                    <Image src={mainBanner} />
-
+                    <Image alt='main-banner' src={mainBanner} />
                 </div>
                 <div className={classes.form_container}>
 
-                    <form className="">
+                    <form onSubmit={handleSubmit(onSubmit)} className="">
                         <div className={classes.row}>
-                            <input placeholder="First Name*" className={classes.input1} type="text" />
-                            <input placeholder="Last Name*" className={classes.input1} type="text" />
+                            <input {...register('firstName')}   placeholder="First Name*" className={classes.input1} type="text" />
+                            <input {...register('lastName')}   placeholder="Last Name*" className={classes.input1} type="text" />
                         </div>
                         <div className={classes.row}>
-                            <input type="text" placeholder="Email Address*" className={classes.input} />
+                            <input {...register('email')}  type="text" placeholder="Email Address*" className={classes.input} />
                         </div>
                         <div className={classes.row}>
-                            <input type="text" placeholder="Mobile Number*" className={classes.input} />
+                            <input type="text" {...register('phoneNo')} placeholder="Mobile Number*" className={classes.input} />
                         </div>
                         <div className={classes.row}>
                             <div className={classes.selectContainer}>
-                                <select name='Preferred Study Desctination' className={classes.input1} >
+                                <select {...register('preferDestination')} className={classes.input1} >
                                     <option value="Default">Select Your Preferred Study Destination*</option>
                                     <option value="USA">United States</option>
                                     <option value="Canada">Canada</option>
@@ -35,7 +53,7 @@ const StudentForm = () => {
                                 </select>
                             </div>
                             <div className={classes.selectContainer}>
-                                <select name='Time of Studing' className={classes.input1} >
+                                <select {...register('startDate')} className={classes.input1} >
                                     <option value="Default">Select When Do You Prefer to Study*</option>
                                     <option value="Dec 2021">December 2021</option>
                                     <option value="Jan 2022">January 2022</option>
@@ -47,7 +65,7 @@ const StudentForm = () => {
                             </div>
                         </div>
                         <div className={classes.selectContainer}>
-                            <select name='Nearest IIEC Office' className={classes.input1} >
+                            <select {...register('officeLocation')} className={classes.input1} >
                                 <option value="Default">Nearest IIEC Office*</option>
                                 <option value="Chennai">Chennai</option>
                                 <option value="Delhi">Delhi</option>
@@ -55,14 +73,14 @@ const StudentForm = () => {
                             </select>
                         </div>
                         <div className={classes.selectContainer}>
-                            <select name='Preferred Counselling' className={classes.input1} >
+                            <select {...register('preferCounsel')} className={classes.input1} >
                                 <option value="Default">Select Your Preferred Mode of Counselling*</option>
                                 <option value="In Person">In Person</option>
                                 <option value="Virtual">Virtual Counselling</option>
                             </select>
                         </div>
                         <div className={classes.selectContainer}>
-                            <select name='Fund Options' className={classes.input1} >
+                            <select {...register('fundOption')} className={classes.input1} >
                                 <option value="Default">Select How Would You Fund Your Education*</option>
                                 <option value="Self">Self Funded</option>
                                 <option value="Parents">Parents</option>
@@ -71,7 +89,7 @@ const StudentForm = () => {
                             </select>
                         </div>
                         <div className={classes.selectContainer}>
-                            <select name='Study Level' className={classes.input1} >
+                            <select {...register('studyLevel')} className={classes.input1} >
                                 <option value="Default">Select Your Preferred Study Level*</option>
                                 <option value="Doctorate">Doctorate</option>
                                 <option value="Post Graduate">Post Graduate</option>

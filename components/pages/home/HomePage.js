@@ -1,17 +1,14 @@
 import React, {Component} from "react";
 import MainBanner from "./MainBanner";
 import Packages from "./Packages";
-import Destinations from "./Destinations";
+import ChatBox from "./chat/ChatBox";
 import Blog from "./Blog";
-import Features from "./Features";
 import Review from "./Review";
 import Info from './Info'
 import Askiiec from "./Askiiec";
 import Partners from "./Partners";
-import Achievement from "./Achievement";
 import StudentForm from './StudentForm.tsx';
 
-//Define Default Content
 class HomePage extends Component {
 
   constructor(props) {
@@ -22,49 +19,16 @@ class HomePage extends Component {
   }
   render() {
     return (
-      <div>
-
-        {/* Start Preloader Area */}
-        {/* <div className="preloader">
-               <div className="loader loader1">
-                   <span style={{'--i': 1}} />
-                   <span style={{'--i': 2}}/>
-                   <span  style={{'--i': 3}}/>
-                   <span  style={{'--i': 4}}/>
-                   <span  style={{'--i': 5}}/>
-                   <span  style={{'--i': 6}}/>
-                   <span  style={{'--i': 7}} />
-                   <span  style={{'--i': 8}}/>
-                   <span  style={{'--i': 9}}/>
-                   <span  style={{'--i': 10}}/>
-                   <span  style={{'--i': 11}}/>
-                   <span  style={{'--i': 12}}/>
-                   <span  style={{'--i': 13}}/>
-                   <span  style={{'--i': 14}}/>
-                   <span  style={{'--i': 15}}/>
-                   <span  style={{'--i': 16}}/>
-                   <span  style={{'--i': 17}}/>
-                   <span  style={{'--i': 18}}/>
-                   <span  style={{'--i': 19}}/>
-                   <span  style={{'--i': 20}}/>
-                   <div className="rocket" />
-               </div>
-           </div> */}
-        {/* End Preloader Area */}
-
-        {/*---------Start Imported All Sections-----------*/}
+      <div style={{position: 'relative'}}>
+        <ChatBox />
         <MainBanner />
         <Info />
-        <StudentForm/>
+        <StudentForm />
         <Packages />
-         <Askiiec />
-        {/* <Destinations/>  */}
-        {/* <Achievement/> */}
-        <Blog/>   
+        <Askiiec />
+        <Blog />
         <Review />
-         <Partners />
-        {/* <Features/> */}
-        {/*---------End Imported All Sections-----------*/}
+        <Partners />
       </div>
     );
   }

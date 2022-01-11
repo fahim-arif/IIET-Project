@@ -4,9 +4,9 @@ import Image from 'next/image'
 
 //Load Image
 import ModalVideoContain from './ModalVideoContain';
-import package2Img from "../../../assets/images/indian-beauty-2021-08-31-15-14-16-utc.jpg"
-import package3Img from "../../../assets/images/indian-man-2021-09-01-10-41-59-utc.jpg"
-import package4Img from "../../../assets/images/indians-at-club-2021-09-01-06-22-37-utc.jpg"
+import package2Img from "../../../assets/images/photo-1604177091072-b7b677a077f6.jpeg"
+import package3Img from "../../../assets/images/istockphoto-1222372717-612x612.jpg"
+import package4Img from "../../../assets/images/istockphoto-1179017978-612x612.jpg"
 
 class Packages extends Component {
 
