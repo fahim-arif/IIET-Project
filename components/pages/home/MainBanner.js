@@ -63,7 +63,7 @@ class MainBanner extends Component {
                             <div className="container">
                                 <div className="slider-content wow fadeInLeft animated" data-wow-delay="300ms" data-wow-duration="1500ms">
                                     <div className='hero-main-title'>OPENING A WORLD OF OPPORTUNITIES</div>
-                                    <div className='hero-sub-title'>Get Online Counselling from IIEC Expert</div>
+                                    <div className='hero-sub-title'>Get Online Counselling from Expert</div>
                                     <div className="banner-btn">
                                         <Link href={`${process.env.PUBLIC_URL}/package`}><a className="btn-common">Register Now!</a></Link>
                                     </div>

@@ -25,9 +25,9 @@ class HomePage extends Component {
         <Info />
         <StudentForm />
         <Packages />
-        <Askiiec />
+        {/* <Askiiec /> */}
         <Blog />
-        <Review />
+        {/* <Review /> */}
         <Partners />
       </div>
     );

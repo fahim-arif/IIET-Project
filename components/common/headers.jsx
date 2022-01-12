@@ -3,8 +3,8 @@ import Image from 'next/image'
 import Link from 'next/link';
 
 //Import Image
-import logoMain from "../../assets/images/logo.png"
-import secondLogo from "../../assets/images/logo-2.png"
+import logoMain from "../../assets/images/Varsity Reccomendation.png"
+import secondLogo from "../../assets/images/Varsity Reccomendation.png"
 
 console.log('heelo world')
 class Headers extends Component {
@@ -89,7 +89,11 @@ class Headers extends Component {
                                 <div className="col-lg-2 col-md-12 col-sm-12 col-xs-12 img-logo-container">
                                     <div className="navbar-wrap">
                                         <div className="logo d-flex justify-content-between">
-                                            <Link href='/'><a className="navbar-brand img-logo" onClick={this.scrollTop}><Image src={logoMain} alt="" /></a></Link>
+                                            <Link href='/'><a className="navbar-brand img-logo" onClick={this.scrollTop}>
+                                                {/* Varsity Reccomendation */}
+                                                <Image width='300px' height='30px' src={logoMain} alt="" />
+                                                
+                                                </a></Link>
                                         </div>
                                         <div className="navbar-icons" >
                                             <div className="searchbar-open">
@@ -173,13 +177,7 @@ class Headers extends Component {
                                                 <Link href={"/"}>HOME</Link>
                                             </li>
                                             <li className='sub-menu-title'>
-                                                <Link activeClassName="active" href={`/about-us`} onClick={this.scrollTop} >About IIEC</Link >
-                                            </li>
-                                            <li className='sub-menu-title'>
-                                                <Link activeClassName="active" href={`${process.env.PUBLIC_URL}/destination`} onClick={this.scrollTop} >IIEC HTMI</Link>
-                                            </li>
-                                            <li className='sub-menu-title'>
-                                                <Link activeClassName="active" href={`${process.env.PUBLIC_URL}/destination`} onClick={this.scrollTop} >IIEC MBBS</Link>
+                                                <Link activeClassName="active" href={`/about-us`} onClick={this.scrollTop} >About Us</Link >
                                             </li>
                                             <li className="has-child-menu sub-menu-title">
                                                 <Link  href={"#"}>SERVICES</Link>

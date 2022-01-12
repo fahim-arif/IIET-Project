@@ -227,7 +227,7 @@ class Footers extends Component {
                             <div className="col-lg-4 col-md-12">
                                 <div className="footer-info">
                                     <div className="footer-logo">
-                                        <Image src={logoMain} alt="" className="img-fluid" />
+                                        {/* <Image src={logoMain} alt="" className="img-fluid" /> */}
                                     </div>
                                     <p>We provide the best training and coaching for all the qualifying exams</p>
                                     <div className="footer-social-icons">
@@ -271,7 +271,7 @@ class Footers extends Component {
                                             <div className="contact-box">
                                                 <span><i className="bx bx-location-plus" /></span>
                                                 <div>
-                                                    <Link href="/">Chennai, India</Link>
+                                                    <Link href="/">Chittagong, Bangladesh</Link>
                                                 </div>
                                             </div>
                                         </div>
@@ -317,7 +317,7 @@ class Footers extends Component {
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="copyrigth-area">
-                                    <p>Copyright 2021 <Link href='/'>IIEC</Link> | Design & Developed By <Link href='/'>Primates Developement</Link></p>
+                                    <p>Copyright 2021 <Link href='/'>Varsity Recommendation</Link> | Design & Developed By <Link href='/'>Developed by CUETIANS</Link></p>
                                 </div>
                             </div>
                         </div>
