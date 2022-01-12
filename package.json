@@ -1,52 +1,48 @@
 {
-  "name": "nestedit-react-main-layout",
-  "version": "0.1.0",
+  "name": "iiec-client",
   "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "watch": "webpack-dev-server --progress"
+  },
   "dependencies": {
+    "@chakra-ui/react": "^1.7.3",
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
     "jquery": "^3.6.0",
-    "react": "^17.0.2",
-    "react-datepicker": "^4.2.1",
-    "react-dom": "^17.0.2",
+    "next": "12.0.3",
+    "react": "17.0.2",
+    "react-datepicker": "^4.3.0",
+    "react-dom": "17.0.2",
+    "react-hook-form": "^7.22.5",
     "react-jqueryui-datepicker": "^1.0.3",
     "react-modal-video": "^1.2.8",
     "react-owl-carousel": "^2.3.3",
     "react-rangeslider": "^2.2.0",
-    "react-router-dom": "^5.2.0",
-    "react-scripts": "4.0.3",
+    "react-router-dom": "^6.0.2",
     "react-slick": "^0.28.1",
-    "simple-react-lightbox": "^3.6.8",
+    "simple-react-lightbox": "^3.6.9-0",
+    "sweetalert2": "^11.3.4",
     "web-vitals": "^1.1.2"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
   "devDependencies": {
-    "css-loader": "^6.2.0",
-    "sass": "^1.38.0",
-    "style-loader": "^3.2.1"
+    "@types/axios": "^0.14.0",
+    "@types/node": "16.11.7",
+    "@types/react": "17.0.34",
+    "@types/simple-react-lightbox": "^3.6.1",
+    "css-loader": "^6.5.1",
+    "dotenv": "^10.0.0",
+    "eslint": "7",
+    "eslint-config-next": "12.0.3",
+    "expose-loader": "^3.1.0",
+    "sass": "^1.43.4",
+    "style-loader": "^3.3.1",
+    "typescript": "4.4.4"
   }
 }

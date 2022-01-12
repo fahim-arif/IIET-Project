@@ -1,0 +1,301 @@
+/*=========================
+	All css imported
+==========================*/
+
+@import url("../assets/css/animate.css");
+@import url("../assets/css/magnific-popup.css");
+@import url("../assets/css/bootstrap.min.css");
+@import url("../assets/css/boxicons.min.css");
+@import url("../assets/css/boxicons.min.css");
+@import url("../assets/font/flaticon.css");
+/* @import url("../assets/css/owl.carousel.min.css"); */
+@import url("../assets/css/style.css");
+@import url("../assets/css/responsive.css");
+
+
+/*=========Customized Small Css Part========*/
+i#packageCalenderIcon{
+    top: 35% !important;
+}
+
+#packageCalenderMainDiv .react-datepicker-popper[data-placement^=bottom] {
+    padding-top: 0px!important;
+}
+
+.react-datepicker__day--selected, .react-datepicker__day--in-selecting-range, .react-datepicker__day--in-range, .react-datepicker__month-text--selected, .react-datepicker__month-text--in-selecting-range, .react-datepicker__month-text--in-range, .react-datepicker__quarter-text--selected, .react-datepicker__quarter-text--in-selecting-range, .react-datepicker__quarter-text--in-range, .react-datepicker__year-text--selected, .react-datepicker__year-text--in-selecting-range, .react-datepicker__year-text--in-range {
+    background-color: #ff7f47!important;
+}
+.react-datepicker__day--keyboard-selected, .react-datepicker__month-text--keyboard-selected, .react-datepicker__quarter-text--keyboard-selected, .react-datepicker__year-text--keyboard-selected {
+    border-radius: 0.3rem;
+    background-color: #ff7f47!important;
+    color: #fff;
+}
+.rangeslider-horizontal .rangeslider__handle:after {
+    background-color: #FF7F47!important;
+}
+.rangeslider-horizontal .rangeslider__fill {
+    background-color: #304F47!important;
+}
+.package-sidebar .sidebar-range .slider {
+    position: relative;
+}
+.package-sidebar .sidebar-range .slider .value {
+    text-align: right;
+    font-weight: bold;
+    position: absolute;
+    top: -30px;
+    right: 0px;
+}
+
+header .header-area .main-nav ul li a.active {
+    color: #FF7F47!important;
+}
+.background-show {
+    background: linear-gradient(rgb(8 8 8 / 70%) 100%, rgb(2 2 2 / 75%) 100%), url('../assets/images/a-group-of-graduates-throwing-graduation-caps-in-t-2021-08-26-16-33-05-utc.jpg') no-repeat !important;
+    /* background: linear-gradient(rgb(8 8 8 / 70%) 100%, rgb(2 2 2 / 75%) 100%), url('../../iiec-client/public/photo-1523050854058-8df90110c9f1.jpeg') no-repeat !important; */
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+}
+.package-card:hover .play{display:block}
+.blur { filter: opacity(50%) }
+
+/* Shaker Css start*/
+.play{
+    position : absolute;
+      display:none;
+      cursor: pointer;
+      top:20%; 
+      width:90px;
+      margin:0 auto; left:0px;
+      right:0px;
+      z-index:100;
+  }
+.ask-play{
+    filter: opacity(80%);
+}
+
+.ask-card{
+    min-height: 400px;
+}
+.ask-head{
+    position: absolute;
+    top:15px;
+    left:15px;
+    text-decoration: solid;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+.button-play{
+    position : absolute;
+    cursor: pointer;
+    top:50%; 
+    transform: translateY(-50%);
+    width:90px;
+    margin:0 auto; left:0px;
+    right:0px;
+    z-index:100;
+}
+.ask-img{
+    border-radius: 30px;
+    object-fit: contain;
+    /* min-height: 400px; */
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+.ask-img img {
+    object-fit: cover;
+}
+.shadow {
+    background-color: rgb(0, 0, 0);
+    opacity: .35;
+    z-index: 0;
+    position: absolute;
+    /* height: 400px;
+    width: 307.750px;
+    border-radius: 30px; */
+    height: 205px;
+    width: 307.75px;
+    border-radius: 22px;
+}
+.ask-ques {
+    position: absolute;
+    bottom:15px;
+    text-decoration: solid;
+    color: rgb(255, 255, 255);
+    font-weight: 600 !important;
+    margin: 5px;
+    padding: 5px;
+    border:none;
+    border-radius: 5px;
+    font-style: 15px;
+}
+.partners{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+@media only screen and (max-width: 600px) {
+    .partners {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+  }
+.partner-img{
+    min-width: 200px;
+}
+.partner-img:hover{
+    -ms-transform: scale(1.25); /* IE 9 */
+    -webkit-transform: scale(1.25); /* Safari 3-8 */
+    transform: scale(1.25); 
+    transition: 0.3s ease-out;
+    behavior: smooth;
+}
+/* end */
+
+.video-play{
+    position: absolute;
+    cursor: pointer;
+    margin: 0 auto;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 1.2rem;
+    z-index: 2;
+} 
+.img-logo-container {
+    display: flex;
+    align-items: center;
+}
+.topbar-area {
+    height: 35px;
+    display: flex;
+    align-items: center;
+}
+.tob-bar-icons {
+    font-size: 20px !important;
+    color: #ffffff !important;
+}
+.search-input-span {     
+     border-bottom: 1px solid #4d4a4a;
+     display: flex;
+     font-size: 20px;
+    font-weight: 500;
+    padding: 5px;
+    color: #6c6666;
+}
+/* 1320 max width */
+.middle-header-container {
+    display: flex;
+    justify-content: space-between;
+    width: 1076px;
+    
+}
+.account-text {
+    font-weight: 500;
+    font-size: 18px;
+}
+.bottom-menu {
+    position: absolute;
+    z-index: 999;
+    top: 72px;
+    right: 0;
+}
+.bottom-menu-container {
+    
+    /* margin-left: 220px; */
+}
+.bottom-header-menu {
+    height: 56px;
+    width: 1306px;
+    background-color: #c8353b;
+    justify-content: space-evenly;
+    border-radius: 50px;
+    color: #ffffff;
+}
+.bottom-menu {
+    height: 56px;
+}
+/* .bottom-menu ul li a {
+    color: #ffffff !important;
+} */
+.sub-menu-title > a{
+    color: #ffffff !important;
+}
+.sub-menu-list a{
+    padding: 15px !important; 
+}
+.sub-menu-title a:hover{
+    color: #FF7F47 !important;
+}
+.black-clr {
+    color: black !important;
+}
+.black-clr > a {
+    color: black !important;
+}
+.hero-main-title {
+        font-size: 45px;
+    font-weight: 800;
+    padding-bottom: 20px;
+    color: white;
+}
+.hero-sub-title {
+       font-size: 26px;
+    font-weight: 700;
+    padding-bottom: 30px;
+    color: white;
+}
+
+/* Info component */
+.info-wrapper {
+    /* position: absolute; */
+
+}
+.achievement-card {
+    background: #ffffff !important;
+    color: #415dd7 !important;
+    /* #fc575e#f7b42c */
+    /* background: #c8353b !important; */
+    /* background: #c8353b !important; */
+    /* background: linear-gradient(to right, #fc575e 0%, #f7b42c 100%) !important; */
+    /* background: linear-gradient(to right, #e11937 0%, #ff8300 100%) !important; */
+}
+.achievement-card i, .achievement-card h5 {
+     color: #415dd7 !important;
+}
+.achievement-card * {
+    color: #474a57 !important;
+}
+.card-subtitle {
+    color: #717583 !important;
+}
+.card-info-col:hover {
+    /* background-color: blanchedalmond; */
+}
+
+
+/* Blog Area */
+.blog-area {
+    margin-top: 40px;
+    background-color: #f2f3f7;
+    padding-bottom: 120px;
+}
+.blog-date {
+    background-color: #c8353b !important;
+}
+.blog-date i {
+       color: #ffffff !important;
+}
+.blog-title {
+ color: #717583 !important;   
+}
+.blog-writer {
+    color: #717583 !important;
+}
+.home-review-img img{
+    /* display: none; */
+    border-radius: 15px !important;
+}
